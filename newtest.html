@@ -4,7 +4,7 @@
      <head>
        <title>My Webpage</title>
        <style>
-            h1 {
+            h1,p {
               color: red;
               text-align: center;
               border: 5px dotted blue;
@@ -18,6 +18,8 @@
               margin:30px;
 
             }
+            input[name=Country],input[name=password]{
+              background-color: lightgrey;           }
          </style>
      </head>
      <body>
@@ -25,5 +27,29 @@
        <h1>Hello all!!!!!!1</h1>
        <p>New Feature</p>
 
+       <div>
+         <input name="name" type="text" placeholder="Name">
+         <input name="password" type="password" placeholder="Password">
+       </div>
+       <div>
+         Favorite food
+         <input name="Food" type="radio" value="Fish">Fish
+         <input name="Food" type="radio" value="Eggs">Eggs
+         <input name="Food" type="radio" value="Chicken">Chicken
+         <input name="Food" type="radio" value="Meat">Meat
+       </div>
+     <div>
+       <input name="Country" list="countries" placeholder="Country">
+       <datalist id="countries">
+         <option value="A">
+         <option value="B">
+         <option value="C">
+         <option value="D">
+         <option value="E">
+         <option value="F">
+         <option value="G">
+      </datalist>
+      </div>
      </body>
+
 </html>

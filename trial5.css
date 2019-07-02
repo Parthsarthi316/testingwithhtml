@@ -1,0 +1,41 @@
+*{
+  background-color: #96edff;
+}
+h1{
+  border:5px solid black;
+}
+p{
+  background:yellow;
+}
+h2{
+  color:purple;
+}
+#itemone{
+  color:purple;
+  text-decoration: overline;
+}
+a{
+  color:blue;
+}
+a:hover{
+  color:orange;
+}
+#textblock{
+  background-color:white;
+}
+#mail,#pass{
+  background-color: white;
+}
+.exit{
+  background-color: darkblue;
+  border:4px dotted yellow;
+}
+h2+p{
+  background-color:#96edff;
+}
+textarea{
+  background-color: white;
+}
+a:visited{
+  color:green;
+}

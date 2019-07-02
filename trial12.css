@@ -1,0 +1,9 @@
+.jumbotron{
+  align-items: center;
+}
+body{
+  background-image: url("logo.jpeg");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+}

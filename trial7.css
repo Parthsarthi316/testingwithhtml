@@ -1,0 +1,30 @@
+h3{
+  text-align: center;
+}
+td{
+  height:200px;
+  width:100px;
+  border:5px solid white;
+
+}
+table{
+    margin:auto;
+}
+body{
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+#one{
+  background-color: #247BA0
+}
+#two{
+  background-color: #70C1B3
+}
+#three{
+  background-color: #B2DBBF
+}
+#four{
+  background-color: #F3FFBD
+}
+#five{
+  background-color: #FF1654
+}
